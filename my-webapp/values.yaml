@@ -1,0 +1,14 @@
+appName: myhelmapp
+
+namespace: apikube
+
+replicas: 1
+
+configmap:
+  name: helmappconfigmapv1.1
+  data: 
+    CUSTOM_MESSAGE: "This app was deployed with Helm for the community!"
+
+image:
+  name: ghcr.io/xamma/apikube
+  tag: latest

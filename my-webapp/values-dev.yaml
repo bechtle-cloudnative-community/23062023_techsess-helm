@@ -1,0 +1,6 @@
+namespace: dev
+
+configmap:
+  name: helmappconfigmapv1.1
+  data: 
+    CUSTOM_MESSAGE: "This app was deployed in Dev Environment."

@@ -1,0 +1,6 @@
+namespace: prod
+
+configmap:
+  name: helmappconfigmapv1.1
+  data: 
+    CUSTOM_MESSAGE: "This app was deployed in Prod Environment."
